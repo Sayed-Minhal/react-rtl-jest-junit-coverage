@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" errors="0" time="21.83">
-  <testsuite name="Load page and children" errors="0" failures="0" skipped="0" timestamp="2021-10-16T07:25:49" time="16.621" tests="2">
-    <testcase classname="Load page and children renders learn react link" name="Load page and children renders learn react link" time="0.172">
-    </testcase>
-    <testcase classname="Load page and children renders Greetings" name="Load page and children renders Greetings" time="0.036">
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="14.569">
+  <testsuite name="Component load" errors="0" failures="0" skipped="0" timestamp="2021-10-16T08:23:33" time="11.108" tests="1">
+    <testcase classname="Component load should load the greetings component correctly" name="Component load should load the greetings component correctly" time="0.062">
     </testcase>
   </testsuite>
 </testsuites>
