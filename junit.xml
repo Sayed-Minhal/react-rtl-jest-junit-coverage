@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="14.569">
-  <testsuite name="Component load" errors="0" failures="0" skipped="0" timestamp="2021-10-16T08:23:33" time="11.108" tests="1">
-    <testcase classname="Component load should load the greetings component correctly" name="Component load should load the greetings component correctly" time="0.062">
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="16.627">
+  <testsuite name="Initial state" errors="0" failures="0" skipped="0" timestamp="2021-10-16T19:01:50" time="8.232" tests="2">
+    <testcase classname="Initial state should return initialState" name="Initial state should return initialState" time="0.005">
+    </testcase>
+    <testcase classname="Initial state should return incremented count" name="Initial state should return incremented count" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component load" errors="0" failures="0" skipped="0" timestamp="2021-10-16T19:01:50" time="9.133" tests="4">
+    <testcase classname="Component load should load the greetings component correctly" name="Component load should load the greetings component correctly" time="0.077">
+    </testcase>
+    <testcase classname="Component load should have increment button" name="Component load should have increment button" time="0.141">
+    </testcase>
+    <testcase classname="Component load should increment the count and reflect on component" name="Component load should increment the count and reflect on component" time="0.017">
+    </testcase>
+    <testcase classname="Component load should call the dispatch on click" name="Component load should call the dispatch on click" time="0.12">
+    </testcase>
+  </testsuite>
+  <testsuite name="Load page and children" errors="0" failures="0" skipped="0" timestamp="2021-10-16T19:01:58" time="1.938" tests="2">
+    <testcase classname="Load page and children renders learn react link" name="Load page and children renders learn react link" time="0.087">
+    </testcase>
+    <testcase classname="Load page and children renders Greetings" name="Load page and children renders Greetings" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="Main actions" errors="0" failures="0" skipped="0" timestamp="2021-10-16T19:01:59" time="1.115" tests="2">
+    <testcase classname="Main actions should return empty array of action initially" name="Main actions should return empty array of action initially" time="0.003">
+    </testcase>
+    <testcase classname="Main actions should dispatch increment action" name="Main actions should dispatch increment action" time="0.004">
     </testcase>
   </testsuite>
 </testsuites>

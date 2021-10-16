@@ -1,9 +1,10 @@
 import logo from './logo.svg';
+import {connect} from 'react-redux';
 import './App.css';
-import {Greetings} from './components/Greetings';
+import Greetings from './components/Greetings';
 
 
-function App() {
+function App({count}) {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,7 +19,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> 
       
       <Greetings/>
       </header>
@@ -26,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default connect((state)=>({...state.count}),{})(App);
